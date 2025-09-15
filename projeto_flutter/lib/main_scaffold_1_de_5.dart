@@ -22,8 +22,9 @@ class MeuApp extends StatelessWidget {
           ),
           body: Column(
 
-            //mainAxisAlignment: MainAxisAlignment.center,//centaliza no eixo vertical
-            mainAxisAlignment: MainAxisAlignment.start,//posiciona no inicio do eixo vertical
+            mainAxisAlignment: MainAxisAlignment.center,//centaliza no eixo vertical
+            //mainAxisAlignment: MainAxisAlignment.start,//posiciona no inicio do eixo vertical
+            //mainAxisAlignment: MainAxisAlignment.end,//posiciona no fim do eixo vertical
             //crossAxisAlignment: CrossAxisAlignment.center,//centraliza no eixo horizontal
 
             children: [
