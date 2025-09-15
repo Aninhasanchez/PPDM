@@ -35,7 +35,7 @@ class MeuApp extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   minimumSize: (200, 50), //largura: 200, altura: 50
                 ),
-                
+                child: Text('Clique aqui'),
                  )
 
 
