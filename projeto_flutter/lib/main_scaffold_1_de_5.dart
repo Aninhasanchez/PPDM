@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
+void main(){
+  runApp(MeuApp());
+}
+
+
+
+
 class MeuApp extends StatelessWidget {
 
     const MeuApp ({super.key});
@@ -13,16 +20,11 @@ class MeuApp extends StatelessWidget {
             title: Text("SCRM", style: TextStyle(color: Colors.white),),
             backgroundColor: Color.fromARGB(255, 64, 60, 134),
           ),
-          body: const Text('Smart City Roberto Mange')
-      
-      
-      
-        ),
+          body: const Text('Smart City Roberto Mange'),
+        )
 
 
-      )
-
-
+      );
     }
 
 
