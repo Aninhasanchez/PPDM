@@ -21,6 +21,14 @@ class MeuApp extends StatelessWidget {
             backgroundColor: Color.fromARGB(255, 64, 60, 134),
           ),
           body: const Text('Smart City Roberto Mange'),
+          bottomNavigationBar: BottomAppBar(
+            color: Colors.grey[300],
+            child: Padding(
+              padding: const EdgeInsets.all(16, 0),
+              child: Text("Aqui é o Rodapé", textAlign: TextAlign.center,
+              ),
+            ),
+          ),
         )
 
 
