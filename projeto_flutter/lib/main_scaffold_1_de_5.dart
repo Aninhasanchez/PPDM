@@ -20,7 +20,17 @@ class MeuApp extends StatelessWidget {
             title: Text("SCRM", style: TextStyle(color: Colors.white),),
             backgroundColor: Color.fromARGB(255, 64, 60, 134),
           ),
-          body: const Text('Smart City Roberto Mange'),
+          body: Column(
+
+            mainAxisAlignment: MainAxisAlignment.center,
+
+            children: [
+              Text("Smart City Roberto Mange", style: TextStyle(fontSize: 24),
+              ),
+            ],
+          ),
+
+
           bottomNavigationBar: BottomAppBar(
             color: Colors.grey[300],
             child: Padding(
