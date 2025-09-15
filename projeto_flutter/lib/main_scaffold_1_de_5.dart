@@ -9,9 +9,19 @@ class MeuApp extends StatelessWidget {
       return MaterialApp(
 
         home: Scaffold(
-          
+          appBar: AppBar(
+            title: Text("SCRM", style: TextStyle(color: Colors.white),),
+            backgroundColor: ,
+          ),
+      
+      
+      
         ),
+
+
       )
+
+
     }
 
 
