@@ -30,6 +30,16 @@ class MeuApp extends StatelessWidget {
             children: [
               Text("Smart City Roberto Mange", style: TextStyle(fontSize: 24),
               ),
+              ElevatedButton(
+                onPressed: (){},
+                style: ElevatedButton.styleFrom(
+                  minimumSize: (200, 50), //largura: 200, altura: 50
+                ),
+                
+                 )
+
+
+
             ],
           ),
 
