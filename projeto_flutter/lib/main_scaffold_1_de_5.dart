@@ -22,7 +22,9 @@ class MeuApp extends StatelessWidget {
           ),
           body: Column(
 
-            mainAxisAlignment: MainAxisAlignment.center,
+            //mainAxisAlignment: MainAxisAlignment.center,//centaliza no eixo vertical
+            mainAxisAlignment: MainAxisAlignment.start,//posiciona no inicio do eixo vertical
+            //crossAxisAlignment: CrossAxisAlignment.center,//centraliza no eixo horizontal
 
             children: [
               Text("Smart City Roberto Mange", style: TextStyle(fontSize: 24),
