@@ -11,8 +11,9 @@ class MeuApp extends StatelessWidget {
         home: Scaffold(
           appBar: AppBar(
             title: Text("SCRM", style: TextStyle(color: Colors.white),),
-            backgroundColor: ,
+            backgroundColor: Color.fromARGB(255, 64, 60, 134),
           ),
+          body: const Text('Smart City Roberto Mange')
       
       
       
