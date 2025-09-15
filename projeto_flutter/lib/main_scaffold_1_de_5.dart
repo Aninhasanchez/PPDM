@@ -24,7 +24,7 @@ class MeuApp extends StatelessWidget {
           bottomNavigationBar: BottomAppBar(
             color: Colors.grey[300],
             child: Padding(
-              padding: const EdgeInsets.all(16, 0),
+              padding: const EdgeInsets.all(16.0),
               child: Text("Aqui é o Rodapé", textAlign: TextAlign.center,
               ),
             ),
